@@ -15,7 +15,7 @@ import java.util.*
  * @since   05/10/2018
  * @version 1.0
  */
-class Eater(var square: Square) {
+class Eater(var square: Square) : Node() {
 
     private val chromosome = Chromosome()
 
